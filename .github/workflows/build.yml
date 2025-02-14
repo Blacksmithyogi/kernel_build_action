@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Build Kernel
-      uses: dabao1955/kernel_build_action@main
+      uses: Blacksmithyogi/kernel_build_action@main
       with:
           kernel-url: https://github.com/Blacksmithyogi/kernel_xiaomi_sm6150
           kernel-dir: msm-4.14
@@ -24,7 +24,7 @@ jobs:
           aosp-clang: true
           ksu: false
           ksu-version: main
-          android-version: 12
+          android-version: 15
           aosp-clang-version: r547379
           disable-lto: true
           anykernel3: true
