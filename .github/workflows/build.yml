@@ -15,9 +15,9 @@ jobs:
     - name: Build Kernel
       uses: Blacksmithyogi/kernel_build_action@main
       with:
-          kernel-url: https://github.com/Blacksmithyogi/kernel_xiaomi_sm6150
+          kernel-url: https://github.com/Blacksmithyogi/kernel_xiaomi_courbet
           kernel-dir: msm-4.14
-          kernel-branch: hypersex
+          kernel-branch: A15
           config: courbet_defconfig
           arch: arm64
           aosp-gcc: true
